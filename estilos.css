@@ -1,4 +1,72 @@
 @charset "UTF-8";
+
+body{
+     color: #333;
+     font-size:1em;
+     margin:0.5em;
+     font-family: sans-serif;
+}
+
+div#container {
+    margin: auto;
+    width: 940px;
+}
+
+
+/* ------ CABECALHO ---- */
+#logo img{
+    display: block;
+    margin: 0 auto;
+}
+
+.login{
+    display: inline-block;    
+}
+
+.login a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 5px;   
+    background-color: red;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 1rem;
+    display: inline-block;
+}
+
+#cabecalho input{
+    border-radius: 30px;
+    margin: 0.5em;
+    display: inline-block;
+}
+
+/* --------SUGESTOES ------*/
+
+#sugestoes{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#sugestoes h3{
+    font-size: 1.2em;
+}
+
+#sugestoes section{
+    display: inline-block;
+    margin: 0.2em;
+    border: 1px solid black; 
+}
+
+#sugestoes img{
+    width: 270px;
+    height: auto;
+}
+
+/* FOOTER */
+
 footer {
     position: fixed;
     left: 0;
