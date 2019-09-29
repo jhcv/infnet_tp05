@@ -44,6 +44,8 @@
         <header>
             <div id="logo">SGI - Compra ingressos online </div>
 
+            <h2 class="titulo">Ingressos</h2>
+
             <p class="login"><a href="#">Login/Registro</a></p>
 
             <input type="search" placeholder="Busca por evento" />
@@ -69,40 +71,83 @@
                 <section class="tabs">
                     <!-- Tab links -->
                     <div class="tab">
-                        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-                        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                        <button id="eventoDefault" class="tablinks" onclick="abrirEventos(event, 'Shows')">Shows</button>
+                        <button class="tablinks" onclick="abrirEventos(event, 'Filmes')">Filmes</button>
+                        <button class="tablinks" onclick="abrirEventos(event, 'Pecas')">Peças</button>
                     </div>
 
                     <!-- Tab content -->
-                    <div id="London" class="tabcontent">
-                        <h3>London</h3>
-                        <p>London is the capital city of England.</p>
-                    </div>
+                    <div id="Shows" class="tabcontent">
+                        <h3>Shows</h3>
 
-                    <div id="Paris" class="tabcontent">
-                        <h3>Paris</h3>
-                        <p>Paris is the capital of France.</p>
-                    </div>
+                        <div class="card">
 
-                    <div id="Tokyo" class="tabcontent">
-                        <h3>Tokyo</h3>
-                        <p>Tokyo is the capital of Japan.</p>
-                    </div>
-                </section>
+                            <img src="imgs/shows/show1.jpg" alt="show1">
+                            <div class="containerCard">
+                                <h4><b>Artista e sua banda</b></h4>
+                                <p>Rock para todos</p>
+                            </div>
+                        </div>
 
+                        <div class="card">
+                            <img src="imgs/shows/show2.jpg" alt="show2">
+                            <div class="containerCard">
+                                <h4><b>Djs o encontro</b></h4>
+                                <p>Titwue</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="imgs/shows/samba.png" alt="show1">
+                            <div class="containerCard">
+                                <h4><b>Sambão</b></h4>
+                                <p>Na vila</p>
+                                <p>Valor: 30 reais</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="imgs/shows/reveilon.png" alt="show2">
+                            <div class="containerCard">
+                                <h4><b>Djs o encontro</b></h4>
+                                <p>Titwue casa de show</p>
+                                <p>Valor: 50 reais</p>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
             </div>
 
+            <div id="Filmes" class="tabcontent">
+                <h3>Filmes</h3>
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
+
+            <div id="Pecas" class="tabcontent">
+                <h3>Pecas</h3>
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
+            </section>
+
+    </div>
 
 
 
-        </main>
 
-        <footer>
+    </main>
 
-            <a href="mailto: sun.raphael@gmail.com">Email Raphael</a>
-            <a href="mailto: sun.raphael@gmail.com">Email Raphael</a>
-        </footer>
+    <footer>
+        <h5>Para suporte e feedback enviar email para:</h5>
+        <a href="mailto: raphael.rodrigues@al.infnet.edu.br">Email Raphael</a>
+        <a href="mailto: sun.raphael@gmail.com">Email </a>
+    </footer>
     </div>
     <script src="script.js"></script>
 </body>
